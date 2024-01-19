@@ -1,6 +1,12 @@
-### Shuttle AWS Templates
+# Shuttle AWS Templates
 This is a repository for storing Shuttle AWS boilerplate templates that you can use and deploy to Shuttle without any code changes. Just plug in your AWS credentials and you're good to go.
 
+## Steps to Deploy
+- Use the relevant command to initialise the template (requires `cargo-shuttle` installed) and follow the prompt
+- Fill out Secrets.toml using the Secrets.example.toml config.
+- Use `cargo shuttle deploy` and you're good to go!
+
+## Available Templates
 You can currently use the following:
 | Template name       | Description                                                                                         | Command to init                                                              |
 |---------------------|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
